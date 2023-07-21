@@ -7,6 +7,10 @@ namespace EqualsTwoClass
         static void Main(string[] args)
         {
             Console.WriteLine(IsEqualTwoClass("v18_2.DataListsType", "NDCv18_2_OfferRS.DataListsType", 0));
+
+            // for example I add here one string
+            // and this need to commit
+            Console.WriteLine("Simple string for read");
         }
 
         static bool IsEqualTwoClass(string class1, string class2, int level)
